@@ -84,8 +84,4 @@ public class ArrayFindService {
         }
         return correct_numbers;
     }
-
-
-
-
 }

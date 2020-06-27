@@ -66,8 +66,4 @@ public class ArraySortService {
         custom_array.setArray(array);
         return custom_array;
     }
-
-
-
-
 }
