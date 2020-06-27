@@ -1,5 +1,7 @@
 package com.dubovik.array.entity;
 
+import java.util.Arrays;
+
 public class CustomArray {
     private int[] array;
 
@@ -70,5 +72,14 @@ public class CustomArray {
     public int hashCode() {
         int hash_code = array.length + array[0];
         return hash_code;
+    }
+
+    public String toString() {
+        final StringBuilder sb = new StringBuilder("CustomArray ");
+        sb.append(" array= ");
+        for(int i = 0; i < array.length; i++){
+            sb.append(i).append(" ");
+        }
+        return sb.toString();
     }
 }
